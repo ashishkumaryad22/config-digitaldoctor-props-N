@@ -23,7 +23,7 @@ spring:
             exposedHeaders: "*"
       routes:
         - id: user-service
-          uri: http://localhost:8080
+          uri: http://localhost:8075
           predicates:
             - Path=/api/v1/***
           filters:
